@@ -1,0 +1,117 @@
+html {
+    background-color: rgb(184, 168, 168);
+    font-family: Cambria;
+}
+/* changes font and background of entire website */
+
+h1 {
+    color: maroon;
+    font-size: 45px;
+    text-decoration: underline;
+    text-align: center;
+}
+/* styled main heading */
+
+h2 {
+    color: maroon;
+    text-align: center;
+}
+/* styled sub-headings */
+
+h3 {
+    color: maroon;
+    font-style: oblique;
+    text-align: center;
+}
+/* smaller styled headings */
+
+div {
+    font-size: 20px;
+    text-align: center;
+}
+/* styled links to all pages on every page */
+
+ul, li {
+    text-align: center;
+    list-style-position: inside;
+    color: white;
+}
+/* list styling on home page with website information */
+
+form {
+    text-align: center;
+    font-family: Cambria;
+}
+/* styled contact form on home page */
+
+img {
+    border-radius: 15px;
+}
+/* makes all images have curved corners */
+
+/* #styled-image {
+    display: flex;
+}*/
+/* need to play with this id more but didn't want to delete */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/* image class to make them centered on page */
+
+p {
+    color: white;
+    text-align: center;
+}
+/* changes font color of paragraphs and centers on page */
+
+#styled-paragraph {
+    background-color: rgb(110, 82, 82);
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+/* id that puts styled box around paragraphs and list on home page */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+/* makes table on garden page go from one side to the other */
+
+th {
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+/* styles heading row in garden table */
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+/* styles all garden table data */
+
+tr:nth-child(even){
+    background-color: gray;
+}
+/* makes all even rows in garden table gray */
+
+tr:nth-child(odd){
+    background-color: silver;
+}
+/* makes all odd rows in garden table silver */
+
+tr:hover {
+    background-color: rgb(110, 82, 82);
+}
+/* when all rows in garden table are hovered over, they turn this color */
+
+
